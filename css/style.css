@@ -1,7 +1,3 @@
-body {
-  background-color: FloralWhite;
-}
-
 /*
 Colors used:
 Background Color (FloralWhite): #FFFAF0;
@@ -9,3 +5,14 @@ Text Color (Almost Black): #212121;
 Primary Color (Light Blue): #849ED6;
 Accent Color (Muted Yellow): #FDFD96;
 */
+
+body {
+  background-color: FloralWhite;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 14px;
+}
