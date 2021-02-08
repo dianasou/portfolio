@@ -13,6 +13,10 @@ body {
   font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
 a:link, a:visited {
   color: #849ED6;
 }
