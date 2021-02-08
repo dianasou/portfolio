@@ -1,9 +1,9 @@
 /*
 Colors used:
-Background Color (FloralWhite): #FFFAF0;
+Background Color (White): #FFFFFF;
 Text Color (Almost Black): #212121;
 Primary Color (Light Blue): #849ED6;
-Accent Color (Muted Yellow): #FDFD96;
+Supporting Color (Slate Blue): #6A5ACD;
 */
 
 body {
@@ -37,9 +37,8 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-  color: #212121;
-  background-color: #FDFD96;
-  text-decoration: underline
+  color: #6A5ACD;
+  font-weight: bold;
 }
 
 a:active {
