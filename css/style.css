@@ -49,11 +49,6 @@ footer {
   font-size: 14px;
 }
 
-.button:hover {
-  opacity: 0.8; 
-  text-decoration: none;
-}
-
 .button {
   display: inline-block;
   background-color: #849ED6;
@@ -63,4 +58,21 @@ footer {
   border-radius: 3px;
   border-bottom: 2px solid #6A5ACD; /* width of border, type, color */
   transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #849ED6;
+  text-transform: uppercase;
+  border: 2px solid #849ED6;
+}
+
+.button.contact:hover {
+  background-color: #849ED6;
+  color: #FFFFFF;
 }
