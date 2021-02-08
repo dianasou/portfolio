@@ -50,7 +50,7 @@ footer {
 }
 
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8; 
   text-decoration: none;
 }
 
