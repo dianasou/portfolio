@@ -32,17 +32,18 @@ img {
   width: 100%;
 }
 
-a:link, a:visited {
+a, a:visited {
   color: #849ED6;
 }
 
-a:hover {
-  color: ##FDFD96;
-  background-color: #FFFFFF;
+a:hover, a:focus {
+  color: #212121;
+  background-color: #FDFD96;
+  text-decoration: underline
 }
 
 a:active {
-  color: ##FDFD96;
+  color: #212121;
 }
 
 footer {
