@@ -86,7 +86,8 @@ footer {
   transition: 0.2s opacity;
 }
 
-.button:hover {
+.button:visited, .button:hover {
+  color: #212121;
   opacity: 0.8;
   text-decoration: none;
 }
