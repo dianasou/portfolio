@@ -1,10 +1,15 @@
 /*
 Colors used:
 Background Color (White): #FFFFFF;
+Background Color 2 (Floral White): #FFFAF0;
 Text Color (Almost Black): #212121;
 Primary Color (Light Blue): #849ED6;
 Supporting Color (Slate Blue): #6A5ACD;
 */
+
+header {
+  background-color: #FFFAF0;
+}
 
 body {
   background-color: #FFFFFF;
