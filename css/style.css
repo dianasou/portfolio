@@ -86,6 +86,10 @@ header {
   box-sizing: border-box;
 }
 
+.container {
+  padding: 0 15px;
+}
+
 footer {
   font-size: 14px;
 }
