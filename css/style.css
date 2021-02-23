@@ -90,6 +90,10 @@ header {
   padding: 0 15px;
 }
 
+.row {
+  margin: 25px 0;
+}
+
 footer {
   font-size: 14px;
 }
