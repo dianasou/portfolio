@@ -123,6 +123,10 @@ nav > ul > li > a {
   color: #212121;
 }
 
+nav > ul > li > a:visited {
+  color: #849ED6;
+}
+
 footer {
   font-size: 14px;
 }
