@@ -116,15 +116,20 @@ nav > ul > li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav > ul > li > a, a:visited {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #212121;
+  color: #849ED6;
 }
 
-nav > ul > li > a:visited {
-  color: #849ED6;
+nav > ul > li > a:hover, a:focus {
+  color: #6A5ACD;
+  font-weight: bold;
+}
+
+nav > ul > li > a:active {
+  color: #212121;
 }
 
 footer {
