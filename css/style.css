@@ -155,18 +155,14 @@ footer {
   text-align: center;
 }
 
-footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
+a {
+    text-decoration: none;
 }
 
 svg {
-  width: 10%;
+  width: 36px;
   height: auto;
+  padding: 2px;
 }
 
 .button {
@@ -191,6 +187,7 @@ svg {
   color: #849ED6;
   text-transform: uppercase;
   border: 2px solid #849ED6;
+  margin: 14px;
 }
 
 .button.contact:hover {
