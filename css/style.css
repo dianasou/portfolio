@@ -152,6 +152,20 @@ main {
 
 footer {
   font-size: 14px;
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
 }
 
 .button {
