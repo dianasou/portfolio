@@ -155,10 +155,6 @@ footer {
   text-align: center;
 }
 
-footer p {
-  text-align: left;
-}
-
 footer ul {
   list-style-type: none;
   padding: 0;
@@ -166,6 +162,11 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+svg {
+  width: 10%;
+  height: auto;
 }
 
 .button {
