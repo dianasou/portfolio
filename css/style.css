@@ -223,14 +223,29 @@ svg {
   .col-md-6 {
     width: 50%;
   }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #home-page h3 {
+    margin: 0;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
 }
 
 @media only screen and (min-width: 1440px) {
-}
-
-[class*="col-"] {
-  float: left;
 }
