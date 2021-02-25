@@ -165,6 +165,15 @@ svg {
   padding: 2px;
 }
 
+@media only screen and (min-width: 640px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1440px) {
+}
+
 .button {
   display: inline-block;
   background-color: #849ED6;
