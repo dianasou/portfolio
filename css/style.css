@@ -273,6 +273,10 @@ svg {
     width: 58.33%;
   }
 
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 15px;
@@ -297,7 +301,4 @@ svg {
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-@media only screen and (min-width: 1440px) {
 }
