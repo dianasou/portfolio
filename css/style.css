@@ -183,37 +183,46 @@ svg {
   padding: 2px;
 }
 
-.berlin-illustration {
+.austin {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from {fill: #FFDF00;} /* golden yellow */
+  to {fill: #CC5500;} /* burnt orange */
 }
 
-.sun {
+.cls-2 {
   animation: 4s color-change infinite alternate linear;
 }
 
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+@keyframes texas-move {
+  from {transform: translate(275px,400px);}
+  to {transform: translate(325px,400px);}
 }
 
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
+.cls-9 {
+  animation: 5s texas-move infinite alternate linear;
 }
 
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+@keyframes pulse-heart {
+  0% {
+		transform: scale(0.99);
+	}
+
+	70% {
+		transform: scale(1); 
+	}
+
+	100% {
+		transform: scale(0.99);
+	}
 }
 
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+.cls-8 {
+  animation: pulse-heart 2s infinite ease-out;
 }
 
 .button {
