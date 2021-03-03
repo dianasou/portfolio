@@ -207,22 +207,14 @@ svg {
   animation: 5s texas-move infinite alternate linear;
 }
 
-@keyframes pulse-heart {
-  0% {
-		transform: scale(0.99);
-	}
-
-	70% {
-		transform: scale(1); 
-	}
-
-	100% {
-		transform: scale(0.99);
-	}
+@keyframes heart-fade-in {
+  0%   { fill: #FFFFFF; }
+  50%  { fill: #FF0000; }
+  100% { fill: #FFFFFF; }
 }
 
 .cls-8 {
-  animation: pulse-heart 2s infinite ease-out;
+  animation: heart-fade-in 2s infinite ease-out;
 }
 
 .button {
