@@ -152,10 +152,11 @@ nav > ul > li > a:active {
   width: 100%;
 }
 
-#portfoliopic {
-  max-width: 25%;
+#profilepic {
+  max-width: 80px;
   float: left;
-  padding-right: 15px;
+  clip-path: circle();
+  margin-right: 15px;
 }
 
 main {
