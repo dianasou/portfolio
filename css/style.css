@@ -256,6 +256,7 @@ svg {
 .button.contact:hover {
   background-color: #849ED6;
   color: #FFFFFF;
+  transition: 1s ease-in-out;
 }
 
 /* medium screens */
