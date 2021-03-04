@@ -230,7 +230,6 @@ svg {
 
 .button:visited {
   color: #849ED6;
-  opacity: 0.8;
   text-decoration: none;
 }
 
@@ -240,7 +239,6 @@ svg {
   border: 1px solid #849ED6;
   opacity: 0.8;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .button.contact {
