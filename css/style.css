@@ -237,7 +237,7 @@ svg {
 .button:hover {
   color: #FFFFFF;
   background-color: #849ED6;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #849ED6;
   opacity: 0.8;
   text-decoration: none;
   font-weight: bold;
