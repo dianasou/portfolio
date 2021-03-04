@@ -117,6 +117,7 @@ header {
 nav {
   display: inline-block;
   width: 100%;
+  font-size: 14px;
 }
 
 nav > ul {
