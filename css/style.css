@@ -276,6 +276,7 @@ svg {
 /* override previous code and show complete menu */
 .navtoggle.responsive li  {
   display: block;
+  padding: 10px 0;
 }
 
 /* medium screens */
