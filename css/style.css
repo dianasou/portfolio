@@ -265,6 +265,19 @@ svg {
   margin-top: 8px;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+/* override previous code and show complete menu */
+.navtoggle.responsive li  {
+  display: block;
+}
+
 /* medium screens */
 @media only screen and (min-width: 640px) {
   header {
@@ -280,6 +293,15 @@ svg {
 
   nav > ul {
      margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  /* hide hamburger icon */
+  .navtoggle li:last-child {
+    display: none;
   }
 
   main {
@@ -321,15 +343,6 @@ svg {
   .logo {
     max-width: 70px;
   }
-
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
-
-  /* hide hamburger icon */
-  .navtoggle li:last-child {
-    display: none;
-  }
 }
 
 /* large screens */
@@ -347,6 +360,15 @@ svg {
 
   nav > ul {
      margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  /* hide hamburger icon */
+  .navtoggle li:last-child {
+    display: none;
   }
 
   main {
@@ -397,14 +419,5 @@ svg {
 
   .logo {
     max-width: 70px;
-  }
-
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
-
-  /* hide hamburger icon */
-  .navtoggle li:last-child {
-    display: none;
   }
 }
