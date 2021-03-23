@@ -125,10 +125,6 @@ nav > ul {
   margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
-
 nav > ul > li > a, a:visited {
   padding: 0 15px;
   text-transform: uppercase;
@@ -257,6 +253,11 @@ svg {
   transition: 1s ease-in-out;
 }
 
+/* hide all list items except hamburger icon */
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 /* medium screens */
 @media only screen and (min-width: 640px) {
   header {
@@ -308,6 +309,15 @@ svg {
 
   .logo {
     max-width: 70px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  /* hide hamburger icon */
+  .navtoggle li:last-child {
+    display: none;
   }
 }
 
@@ -372,5 +382,14 @@ svg {
 
   .logo {
     max-width: 70px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  /* hide hamburger icon */
+  .navtoggle li:last-child {
+    display: none;
   }
 }
