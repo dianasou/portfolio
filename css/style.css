@@ -109,7 +109,7 @@ header {
 }
 
 .logo {
-  max-width: 70px;
+  max-width: 50px;
 }
 
 nav {
@@ -305,6 +305,10 @@ svg {
   #about-page h3 {
     margin-top: 0;
   }
+
+  .logo {
+    max-width: 70px;
+  }
 }
 
 /* large screens */
@@ -364,5 +368,9 @@ svg {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .logo {
+    max-width: 70px;
   }
 }
