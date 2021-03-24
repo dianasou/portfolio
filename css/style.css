@@ -7,6 +7,11 @@ Primary Color (Light Blue): #849ED6;
 Supporting Color (Slate Blue): #6A5ACD;
 */
 
+html {
+  /* set smooth scrolling behavior */
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FFFFFF;
   font-family: 'Inter', sans-serif;
@@ -135,6 +140,39 @@ nav > ul > li > a:active {
   color: #212121;
 }
 
+/* side nav */
+.sidenav {
+  border-right: 2px solid #849ED6;
+  text-align: right;
+  position: sticky;
+}
+
+.sidenav ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  position: sticky;
+}
+
+.sidenav ul li a {
+  display: block;
+  padding: 5px;
+  color: #849ED6;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sidenav ul li a.current {
+  background: #FFFAF0;
+}
+
+/* hide side nav in mobile screens because of awkward design */
+@media (max-width: 639px) {
+  .sidenav {
+    display: none;
+  }
+}
+
 #hero {
   background-color: #FFFFFF;
   display: inline-block;
@@ -157,6 +195,7 @@ footer {
   font-size: 14px;
   text-align: center;
   border-top: 0.5px solid LightGray;
+  margin-top: 25px;
 }
 
 footer p {
@@ -322,6 +361,14 @@ svg {
     width: 50%;
   }
 
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
@@ -391,6 +438,14 @@ svg {
 
   .col-lg-5 {
     width: 41.66%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  .col-lg-10 {
+    width: 83.33%;
   }
 
   [class*="col-"] {
