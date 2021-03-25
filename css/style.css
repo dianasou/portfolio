@@ -140,39 +140,6 @@ nav > ul > li > a:active {
   color: #212121;
 }
 
-/* hide all list items except hamburger icon */
-.navbar li:not(:last-child) {
-  display: none;
-}
-
-/* position menu icon right and align with logo */
-.navbar, .navtoggle.responsive {
-  position: relative;
-}
-
-.navbar li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-  margin-top: 8px;
-}
-
-.navbar.responsive li  {
-  display: block;
-}
-
-.navbar.responsive nav {
-  padding: 24px 0 0;
-}
-
-/* override previous code and show complete menu */
-.navbar.responsive li  {
-  display: block;
-  padding: 10px 0;
-}
-
 /* side nav */
 .sidenav {
   border-right: 2px solid #849ED6;
@@ -318,6 +285,39 @@ svg {
   transition: 1s ease-in-out;
 }
 
+/* hide all list items except hamburger icon */
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+/* position menu icon right and align with logo */
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+  margin-top: 8px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+/* override previous code and show complete menu */
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+
 /* medium screens */
 @media only screen and (min-width: 640px) {
   header {
@@ -335,12 +335,12 @@ svg {
      margin: 1em 0;
   }
 
-  .navbar li:not(:last-child) {
+  .navtoggle li:not(:last-child) {
     display: inline-block;
   }
 
   /* hide hamburger icon */
-  .navbar li:last-child {
+  .navtoggle li:last-child {
     display: none;
   }
 
@@ -410,12 +410,12 @@ svg {
      margin: 1em 0;
   }
 
-  .navbar li:not(:last-child) {
+  .navtoggle li:not(:last-child) {
     display: inline-block;
   }
 
   /* hide hamburger icon */
-  .navbar li:last-child {
+  .navtoggle li:last-child {
     display: none;
   }
 
