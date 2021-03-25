@@ -3,7 +3,6 @@ console.log("Hello world");
 //personal message to readers
 console.log("This is Diana. Welcome to my portfolio!");
 
-// menuToggle function shows nav when clicked
 function menuToggle() {
   var x = document.getElementById('myNavtoggle');
   if (x.className === 'navtoggle') {
@@ -14,6 +13,7 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
+<<<<<<< HEAD
 
 //return node list that match group of selectors for side nav
 let mainNavLinks = document.querySelectorAll(".sidenav ul li a");
@@ -62,3 +62,5 @@ lightbox.addEventListener("click", e => {
   if(e.target !== e.currentTarget) return
   lightbox.classList.remove("active")
 })
+=======
+>>>>>>> parent of 8672b88 (Add side nav)

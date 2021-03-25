@@ -7,11 +7,6 @@ Primary Color (Light Blue): #849ED6;
 Supporting Color (Slate Blue): #6A5ACD;
 */
 
-html {
-  /* set smooth scrolling behavior */
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #FFFFFF;
   font-family: 'Inter', sans-serif;
@@ -140,6 +135,7 @@ nav > ul > li > a:active {
   color: #212121;
 }
 
+<<<<<<< HEAD
 /* hide all list items except hamburger icon */
 .navtoggle li:not(:last-child) {
   display: none;
@@ -216,6 +212,8 @@ nav > ul > li > a:active {
   }
 }
 
+=======
+>>>>>>> parent of 8672b88 (Add side nav)
 #hero {
   background-color: #FFFFFF;
   display: inline-block;
@@ -238,7 +236,6 @@ footer {
   font-size: 14px;
   text-align: center;
   border-top: 0.5px solid LightGray;
-  margin-top: 25px;
 }
 
 footer p {
@@ -393,14 +390,6 @@ svg {
     width: 50%;
   }
 
-  .col-md-3 {
-    width: 25%;
-  }
-
-  .col-md-9 {
-    width: 75%;
-  }
-
   [class*="col-"] {
     float: left;
     padding: 10px;
@@ -488,14 +477,6 @@ svg {
 
   .col-lg-5 {
     width: 41.66%;
-  }
-
-  .col-lg-2 {
-    width: 16.66%;
-  }
-
-  .col-lg-10 {
-    width: 83.33%;
   }
 
   [class*="col-"] {
