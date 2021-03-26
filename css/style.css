@@ -19,6 +19,22 @@ body {
   color: #212121;
 }
 
+/* optimize headings on mobile device */
+@media screen and (max-width: 720px) {
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 14px;
+  }
+}
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -50,22 +66,6 @@ h4 {
 span {
   font-size: 18px;
   font-weight: 400;
-}
-
-/* optimize headings on mobile device */
-@media screen and (max-width: 720px) {
-  h1{
-    font-size: 20px;
-  }
-  h2{
-    font-size: 18px;
-  }
-  h3{
-    font-size: 16px;
-  }
-  h4{
-    font-size: 14px;
-  }
 }
 
 img {
@@ -108,8 +108,8 @@ header {
   margin: 25px 0;
 }
 
-#work .row {
-  padding-bottom: 25px; border-bottom: 1px solid #212121;
+#work .grid-home {
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -122,7 +122,7 @@ nav > ul {
   margin: 0;
 }
 
-nav > ul > li > a, a:visited {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   color: #212121;
@@ -156,7 +156,7 @@ a.active, a:hover{
   text-decoration: none;
 }
 
-.nav-link:hover {
+.nav-link:visited, .nav-link:hover {
   color: #212121;
 }
 
@@ -230,13 +230,13 @@ a {
 svg {
   width: 36px;
   height: auto;
-  padding: 2px;
 }
 
+/* svg animation */
 .austin {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @keyframes color-change {
@@ -292,39 +292,33 @@ svg {
 .button {
   display: inline-block;
   background-color: transparent;
-  color: #849ED6;
-  border: 1px solid #849ED6;
+  color: #212121;
+  border: 1px solid #212121;
   font-weight: 400;
   text-transform: uppercase;
   padding: 10px;
   border-radius: 3px;
   transition: 0.2s opacity;
+  margin-bottom: 20px;
 }
 
 .button:visited {
-  color: #849ED6;
-  text-decoration: none;
-}
-
-.button:hover {
-  color: #FFFFFF;
-  background-color: #849ED6;
-  border: 1px solid #849ED6;
-  opacity: 0.8;
+  color: #212121;
   text-decoration: none;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #849ED6;
+  color: #212121;
   text-transform: uppercase;
-  border: 2px solid #849ED6;
+  border: 2px solid #212121;
   margin: 14px;
 }
 
 .button.contact:hover {
-  background-color: #849ED6;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #212121;
+  border: 2px solid #212121;
   transition: 1s ease-in-out;
 }
 
@@ -401,6 +395,31 @@ svg {
     margin-right: auto;
   }
 
+  .button {
+    display: inline-block;
+    background-color: transparent;
+    color: #FFFAF0;
+    border: 1px solid #FFFAF0;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+  }
+
+  .button:visited {
+    color: #FFFAF0;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    color: #212121;
+    background-color: #FFFAF0;
+    border: 1px solid #FFFAF0;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
   #floating-img {
     max-width: 600px;
     float: right;
@@ -418,6 +437,64 @@ svg {
     width: 400px;
     height: auto;
     cursor: pointer;
+  }
+
+  .grid-home {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-gap: 5px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
+  }
+
+  .grid-home img {
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+  }
+
+  .grid-home svg {
+    width: 100vh;
+    object-fit: fill;
+  }
+
+  .project-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .project {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+
+  .img-overlay:hover {
+    opacity: 1;
+  }
+
+  .text-overlay {
+    margin-top: 0.25em;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
   }
 }
 
@@ -497,6 +574,31 @@ svg {
     max-width: 70px;
   }
 
+  .button {
+    display: inline-block;
+    background-color: transparent;
+    color: #FFFAF0;
+    border: 1px solid #FFFAF0;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+  }
+
+  .button:visited {
+    color: #FFFAF0;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    color: #212121;
+    background-color: #FFFAF0;
+    border: 1px solid #FFFAF0;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
   #floating-img {
     max-width: 600px;
     float: right;
@@ -514,5 +616,65 @@ svg {
     width: 500px;
     height: auto;
     cursor: pointer;
+  }
+
+  .grid-home {
+    display: grid;
+    grid-template-columns: repeat(2, 550px);
+    grid-gap: 5px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
+
+  }
+
+  .grid-home img {
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+  }
+
+  .grid-home svg {
+    width: 100vh;
+    object-fit: fill;
+  }
+
+  .project-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .project {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    margin: 0;
+  }
+
+  .img-overlay:hover {
+    opacity: 1;
+  }
+
+  .text-overlay {
+    margin-top: 0.25em;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
   }
 }
