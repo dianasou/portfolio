@@ -289,6 +289,30 @@ svg {
   max-height: auto;
 }
 
+#backTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  background-color: #FFFFFF;
+  color: #849ED6;
+  opacity: 0.75;
+  border: 2px solid #849ED6;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+  z-index: 1;
+}
+
+#backTopBtn:hover, #backTopBtn:focus {
+  background-color: #849ED6;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
 .button {
   display: inline-block;
   background-color: transparent;
@@ -393,6 +417,12 @@ svg {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #backTopBtn {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
   }
 
   .button {
@@ -572,6 +602,12 @@ svg {
 
   .logo {
     max-width: 70px;
+  }
+
+  #backTopBtn {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
   }
 
   .button {
