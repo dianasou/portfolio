@@ -441,7 +441,7 @@ svg {
 
   .grid-home {
     display: grid;
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, auto);
     grid-gap: 5px;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
@@ -620,12 +620,11 @@ svg {
 
   .grid-home {
     display: grid;
-    grid-template-columns: repeat(2, 550px);
+    grid-template-columns: repeat(2, auto);
     grid-gap: 5px;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     justify-content: center;
-
   }
 
   .grid-home img {
@@ -664,7 +663,6 @@ svg {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
-    margin: 0;
   }
 
   .img-overlay:hover {
