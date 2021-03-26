@@ -181,39 +181,6 @@ nav > ul > li > a:active {
   z-index: 1;
 }
 
-/* side nav */
-.sidenav {
-  border-right: 2px solid #849ED6;
-  text-align: right;
-}
-
-.sidenav ul {
-  list-style: none;
-  margin: 10px;
-  padding: 0;
-}
-
-.sidenav ul li a {
-  display: block;
-  padding: 5px;
-  color: #849ED6;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.sidenav ul li a.current {
-  background: #FFFAF0;
-}
-
-/* hide side nav in mobile screens because of awkward design */
-@media (max-width: 639px) {
-  .sidenav {
-    display: none;
-  }
-}
-
-=======
->>>>>>> parent of 8672b88 (Add side nav)
 #hero {
   background-color: #FFFFFF;
   display: inline-block;
@@ -236,6 +203,7 @@ footer {
   font-size: 14px;
   text-align: center;
   border-top: 0.5px solid LightGray;
+  margin-top: 40px;
 }
 
 footer p {
@@ -416,6 +384,7 @@ svg {
   #floating-img {
     max-width: 600px;
     float: right;
+    padding: 10px;
   }
 
   .grid {

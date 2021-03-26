@@ -13,34 +13,8 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
-<<<<<<< HEAD
 
-//return node list that match group of selectors for side nav
-let mainNavLinks = document.querySelectorAll(".sidenav ul li a");
-let mainSections = document.querySelectorAll("main section");
-
-let lastId;
-let cur = [];
-
-//side nav to scroll to section
-window.addEventListener("scroll", event => {
-  let fromTop = window.scrollY;
-
-  mainNavLinks.forEach(link => {
-    let section = document.querySelector(link.hash);
-
-    if (
-      section.offsetTop <= fromTop &&
-      section.offsetTop + section.offsetHeight > fromTop
-    ) {
-      link.classList.add("current");
-    } else {
-      link.classList.remove("current");
-    }
-  });
-
-});
-
+// create lightbox for thumbnail images
 const lightbox = document.createElement("div")
 lightbox.id = "lightbox"
 document.body.appendChild(lightbox)
@@ -62,5 +36,3 @@ lightbox.addEventListener("click", e => {
   if(e.target !== e.currentTarget) return
   lightbox.classList.remove("active")
 })
-=======
->>>>>>> parent of 8672b88 (Add side nav)
