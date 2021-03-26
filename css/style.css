@@ -6,6 +6,9 @@ Text Color (Almost Black): #212121;
 Primary Color (Light Blue): #849ED6;
 Supporting Color (Slate Blue): #6A5ACD;
 */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #FFFFFF;
