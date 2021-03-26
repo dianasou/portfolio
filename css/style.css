@@ -135,7 +135,6 @@ nav > ul > li > a:active {
   color: #212121;
 }
 
-<<<<<<< HEAD
 /* hide all list items except hamburger icon */
 .navtoggle li:not(:last-child) {
   display: none;
@@ -384,7 +383,7 @@ svg {
   #floating-img {
     max-width: 600px;
     float: right;
-    padding: 10px;
+    padding: 20px;
   }
 
   .grid {
@@ -480,7 +479,7 @@ svg {
   #floating-img {
     max-width: 600px;
     float: right;
-    padding: 10px;
+    padding: 20px;
   }
 
   .grid {
