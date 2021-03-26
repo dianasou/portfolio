@@ -12,6 +12,17 @@ function menuToggle() {
   }
 }
 
+// set active class to button when clicked in navbar
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll(".nav-link");
+const menuLength = menuItem.length
+
+for (let i = 0; i < menuLength; i++) {
+  if (menuItem[i].href === currentLocation) {
+    menuItem[i].className = "active"
+  }
+}
+
 // create lightbox for thumbnail images
 const lightbox = document.createElement("div")
 lightbox.id = "lightbox"

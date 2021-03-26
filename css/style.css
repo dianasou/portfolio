@@ -125,16 +125,38 @@ nav > ul {
 nav > ul > li > a, a:visited {
   padding: 0 15px;
   text-transform: uppercase;
-  color: #849ED6;
+  color: #212121;
 }
 
-nav > ul > li > a:hover, a:focus {
-  color: #849ED6;
+nav > ul > li > a:focus {
+  color: #212121;
   font-weight: 700;
   text-decoration: none;
 }
 
 nav > ul > li > a:active {
+  color: #849ED6;
+}
+
+/* style nav bar */
+.navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed; /* set navbar to fixed position */
+  top: 0; /* position navbar at the top of the page */
+  width: 100%;
+  padding: 0 120px;
+  z-index: 1;
+  margin: 0;
+}
+
+/* style active class nav link*/
+a.active, a:hover{
+  color: #849ED6;
+  text-decoration: none;
+}
+
+.nav-link:hover {
   color: #212121;
 }
 
@@ -163,24 +185,13 @@ nav > ul > li > a:active {
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 0;
 }
 
 /* override previous code and show complete menu */
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-}
-
-/* style nav bar */
-.navbar {
-  overflow: hidden;
-  background-color: #FFFFFF;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  padding: 0 120px;
-  z-index: 1;
 }
 
 #hero {
@@ -332,11 +343,6 @@ svg {
 
   nav > ul {
      margin: 1em 0;
-  }
-
-  /* change color of current page */
-  a.current, a.current:hover {
-    color: #212121;
   }
 
   .navtoggle li:not(:last-child) {
