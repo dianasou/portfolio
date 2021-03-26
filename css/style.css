@@ -331,6 +331,11 @@ svg {
      margin: 1em 0;
   }
 
+  /* change color of current page */
+  a.current, a.current:hover {
+    color: #212121;
+  }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
