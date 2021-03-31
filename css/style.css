@@ -330,7 +330,7 @@ svg {
   text-decoration: none;
 }
 
-.button.contact {
+.button.contact, #resume {
   background-color: transparent;
   color: #212121;
   text-transform: uppercase;
@@ -338,11 +338,15 @@ svg {
   margin: 14px;
 }
 
-.button.contact:hover {
+.button.contact:hover, #resume {
   background-color: #FFFFFF;
   color: #212121;
   border: 2px solid #212121;
   transition: 1s ease-in-out;
+}
+
+#resume {
+  margin: 0;
 }
 
 /* medium screens */
