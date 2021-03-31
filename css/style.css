@@ -191,7 +191,6 @@ a.active, a:hover{
 /* override previous code and show complete menu */
 .navtoggle.responsive li  {
   display: block;
-  padding: 10px 0;
 }
 
 #hero {
