@@ -6,6 +6,7 @@ Text Color (Almost Black): #212121;
 Primary Color (Light Blue): #849ED6;
 Supporting Color (Slate Blue): #6A5ACD;
 */
+
 html {
   scroll-behavior: smooth;
 }
@@ -198,11 +199,11 @@ a.active, a:hover{
   display: inline-block;
   width: 100%;
 }
-
+ 
 #profilepic {
   max-width: 80px;
   float: left;
-  clip-path: circle();
+  border-radius: 50%;
   margin-right: 15px;
 }
 
