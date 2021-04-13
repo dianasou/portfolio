@@ -479,7 +479,8 @@ svg {
     text-decoration: none;
   }
 
-  #floating-img {
+  #floating-img,
+  #floating-img-2 {
     max-width: 600px;
     float: right;
     padding: 20px;
@@ -663,7 +664,8 @@ svg {
     text-decoration: none;
   }
 
-  #floating-img {
+  #floating-img,
+  #floating-img-2 {
     max-width: 600px;
     float: right;
     padding: 20px;
