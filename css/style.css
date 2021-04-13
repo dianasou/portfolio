@@ -6,7 +6,6 @@ Text Color (Almost Black): #212121;
 Primary Color (Light Blue): #849ed6;
 Supporting Color (Slate Blue): #6a5acd;
 */
-
 html {
   scroll-behavior: smooth;
 }
@@ -158,8 +157,12 @@ nav > ul > li > a:active {
   overflow: hidden;
   background-color: #fff;
   color: #212121;
-  position: fixed; /* set navbar to fixed position */
-  top: 0; /* position navbar at the top of the page */
+  position: fixed;
+
+  /* set navbar to fixed position */
+  top: 0;
+
+  /* position navbar at the top of the page */
   width: 100%;
   padding: 0 120px;
   z-index: 1;
@@ -261,8 +264,16 @@ svg {
 }
 
 @keyframes color-change {
-  from { fill: #ffdf00; } /* golden yellow */
-  to { fill: #c50; } /* burnt orange */
+  from {
+    fill: #ffdf00;
+  }
+
+  /* golden yellow */
+  to {
+    fill: #c50;
+  }
+
+  /* burnt orange */
 }
 
 .cls-2 {
@@ -270,8 +281,13 @@ svg {
 }
 
 @keyframes texas-move {
-  from { transform: translate(275px, 400px); }
-  to { transform: translate(325px, 400px); }
+  from {
+    transform: translate(275px, 400px);
+  }
+
+  to {
+    transform: translate(325px, 400px);
+  }
 }
 
 .cls-9 {
@@ -279,9 +295,17 @@ svg {
 }
 
 @keyframes heart-fade-in {
-  0% { fill: #fff; }
-  50% { fill: #f00; }
-  100% { fill: #fff; }
+  0% {
+    fill: #fff;
+  }
+
+  50% {
+    fill: #f00;
+  }
+
+  100% {
+    fill: #fff;
+  }
 }
 
 .cls-8 {
