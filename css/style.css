@@ -82,11 +82,13 @@ img {
 a,
 a:visited {
   color: #849ed6;
+  background-color: transparent;
 }
 
 a:hover,
 a:focus {
   color: #6a5acd;
+  background-color: transparent;
   font-weight: bold;
   text-decoration: underline;
   opacity: 80%;
@@ -95,10 +97,12 @@ a:focus {
 
 a:active {
   color: #212121;
+  background-color: transparent;
 }
 
 header {
   background-color: #fff;
+  color: #212121;
   text-align: center;
   position: relative;
   padding: 10px 0 4px;
@@ -134,22 +138,26 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   color: #212121;
+  background-color: transparent;
 }
 
 nav > ul > li > a:focus {
   color: #212121;
+  background-color: transparent;
   font-weight: 700;
   text-decoration: none;
 }
 
 nav > ul > li > a:active {
   color: #849ed6;
+  background-color: transparent;
 }
 
 /* style nav bar */
 .navbar {
   overflow: hidden;
   background-color: #fff;
+  color: #212121;
   position: fixed; /* set navbar to fixed position */
   top: 0; /* position navbar at the top of the page */
   width: 100%;
@@ -162,12 +170,14 @@ nav > ul > li > a:active {
 a.active,
 a:hover {
   color: #849ed6;
+  background-color: transparent;
   text-decoration: none;
 }
 
 .nav-link:visited,
 .nav-link:hover {
   color: #212121;
+  background-color: transparent;
 }
 
 /* hide all list items except hamburger icon */
@@ -205,6 +215,7 @@ a:hover {
 
 #hero {
   background-color: #fff;
+  color: #212121;
   display: inline-block;
   width: 100%;
 }
@@ -222,6 +233,7 @@ main {
 
 footer {
   background-color: #fffaf0;
+  color: #212121;
   font-size: 14px;
   text-align: center;
   border-top: 0.5px solid LightGray;
@@ -283,6 +295,7 @@ svg {
   top: 0;
   width: 100%;
   height: 100%;
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
 }
@@ -638,13 +651,14 @@ svg {
 
   .button:visited {
     color: #fffaf0;
+    background-color: transparent;
     text-decoration: none;
   }
 
   .button:hover {
     color: #212121;
     background-color: #fffaf0;
-    border: 1px solid #fffaf0;
+    border: 1px solid #212121;
     opacity: 0.8;
     text-decoration: none;
   }
