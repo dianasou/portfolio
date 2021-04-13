@@ -199,7 +199,7 @@ a.active, a:hover{
   display: inline-block;
   width: 100%;
 }
- 
+
 #profilepic {
   max-width: 80px;
   float: left;
@@ -286,7 +286,7 @@ svg {
 
 #lightbox img {
   max-width: 75%;
-  max-height: auto;
+  max-height: none;
 }
 
 #backTopBtn {
