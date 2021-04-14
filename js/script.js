@@ -47,7 +47,7 @@ lightbox.addEventListener('click', e => {
 })
 
 // button to go back to top
-backToTopButton = document.querySelector('#backTopBtn')
+const backToTopButton = document.querySelector('#backTopBtn')
 
 window.addEventListener('scroll', scrollFunction)
 
