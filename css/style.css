@@ -498,8 +498,9 @@ svg {
   .button:hover {
     color: #212121;
     background-color: #fffaf0;
-    border: 1px solid #fffaf0;
-    opacity: 0.8;
+    border: 1px solid #212121;
+    font-weight: 700;
+    opacity: 0.9;
     text-decoration: none;
   }
 
@@ -578,6 +579,22 @@ svg {
     justify-content: center;
     text-align: center;
     padding: 5px;
+  }
+
+  .img-link {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff !important;
+    font-weight: 400 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.1s;
   }
 }
 
@@ -764,5 +781,21 @@ svg {
     justify-content: center;
     text-align: center;
     padding: 5px;
+  }
+
+  .img-link {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff !important;
+    font-weight: 400 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.1s;
   }
 }
