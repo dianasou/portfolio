@@ -3,7 +3,7 @@ Colors used:
 Background Color (White): #fff;
 Background Color 2 (Floral White): #fffaf0;
 Text Color (Almost Black): #212121;
-Primary Color (Light Blue): #849ed6;
+Primary Color (Light Blue): #4f74c4;
 Supporting Color (Slate Blue): #6a5acd;
 */
 html {
@@ -80,7 +80,7 @@ img {
 
 a,
 a:visited {
-  color: #849ed6;
+  color: #4f74c4;
   background-color: transparent;
 }
 
@@ -148,7 +148,7 @@ nav > ul > li > a:focus {
 }
 
 nav > ul > li > a:active {
-  color: #849ed6;
+  color: #4f74c4;
   background-color: transparent;
 }
 
@@ -172,7 +172,7 @@ nav > ul > li > a:active {
 /* style active class nav link */
 a.active,
 a:hover {
-  color: #849ed6;
+  color: #4f74c4;
   background-color: transparent;
   text-decoration: none;
 }
@@ -343,9 +343,9 @@ svg {
   width: 32px;
   height: 32px;
   background-color: #fff;
-  color: #849ed6;
+  color: #4f74c4;
   opacity: 0.75;
-  border: 2px solid #849ed6;
+  border: 2px solid #4f74c4;
   border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
@@ -355,7 +355,7 @@ svg {
 
 #backTopBtn:hover,
 #backTopBtn:focus {
-  background-color: #849ed6;
+  background-color: #4f74c4;
   color: #fff;
   opacity: 1;
 }
