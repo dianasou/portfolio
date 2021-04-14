@@ -12,7 +12,7 @@ function menuToggle () {
   }
 }
 
-// set active class to button when clicked in navbar
+// set active class to button when clicked in navbar: https://youtu.be/7Vr1bngah-k
 const currentLocation = location.href
 const menuItem = document.querySelectorAll('.nav-link')
 const menuLength = menuItem.length
@@ -23,7 +23,7 @@ for (let i = 0; i < menuLength; i++) {
   }
 }
 
-// create lightbox for thumbnail images
+// create lightbox for thumbnail images: https://youtu.be/uKVVSwXdLr0
 const lightbox = document.createElement('div')
 lightbox.id = 'lightbox'
 document.body.appendChild(lightbox)
@@ -46,7 +46,7 @@ lightbox.addEventListener('click', e => {
   lightbox.classList.remove('active')
 })
 
-// button to go back to top
+// button to go back to top: https://youtu.be/gphMli74Chk
 const backToTopButton = document.querySelector('#backTopBtn')
 
 window.addEventListener('scroll', scrollFunction)
