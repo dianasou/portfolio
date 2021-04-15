@@ -605,6 +605,10 @@ svg {
     opacity: 0;
     transition: opacity 0.1s;
   }
+
+  #copyright {
+    font-size: 14px;
+  }
 }
 
 /* large screens */
@@ -806,5 +810,9 @@ svg {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.1s;
+  }
+
+  #copyright {
+    font-size: 14px;
   }
 }
