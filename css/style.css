@@ -330,6 +330,15 @@ svg {
   align-items: center;
 }
 
+.img-link {
+  color: #212121 !important;
+  background-color: transparent;
+}
+
+#copyright {
+  font-size: 10px;
+}
+
 #lightbox img {
   max-width: 75%;
   max-height: none;
