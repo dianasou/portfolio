@@ -192,7 +192,7 @@ a:hover {
 
 .navtoggle li .icon {
   position: absolute;
-  right: 0;
+  right: -80px;
   top: 2px;
   font-size: 20px;
   padding-right: 0;
