@@ -74,6 +74,11 @@ img {
   width: 100%;
 }
 
+.list-title {
+  text-decoration: underline;
+  list-style-type: none;
+}
+
 a,
 a:visited {
   color: #4f74c4;
@@ -519,14 +524,23 @@ svg {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, auto);
     justify-content: center;
     grid-gap: 5px;
   }
 
   .grid img {
-    width: 400px;
-    height: auto;
+    cursor: pointer;
+  }
+
+  .grid-triple {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 5px;
+  }
+
+  .grid-triple img {
     cursor: pointer;
   }
 
@@ -718,21 +732,31 @@ svg {
   #floating-img,
   #floating-img-2,
   #floating-img-3 {
-    max-width: 600px;
+    max-width: 500px;
     float: right;
     padding: 20px;
   }
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, auto);
     justify-content: center;
     grid-gap: 5px;
   }
 
   .grid img {
-    width: 500px;
-    height: auto;
+    cursor: pointer;
+  }
+
+  .grid-triple {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 5px;
+    width: 100%;
+  }
+
+  .grid-triple img {
     cursor: pointer;
   }
 

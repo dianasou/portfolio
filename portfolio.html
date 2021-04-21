@@ -102,7 +102,7 @@
       </div>
 
       <div>
-        <h3>Process:</h3>
+        <h3>Process and Solutions:</h3>
         <p>I learned how to use HTML and CSS to structure my website and design a layout for my portfolio.
           The website design started with a mobile-first approach.
           At first, the home page had a basic layout with a project image on the left and a text description on the right.</p>
@@ -130,9 +130,54 @@
         <p>User testing allowed me to find issues and ways to improve the website.
           I utilized the feedback to provide a better user experience by taking into consideration user behavior and the many ways users could be viewing my portfolio.</p>
 
+        <p><b>Usability Report:</b></p>
+        <p>Participants found that my website is clean and showed how creative I am. They felt it was easy to use and understand.</p>
+        <div class="grid">
+          <ul>
+            <li class="list-title">Problem</li>
+            <li>Users can only click View Project button</li>
+            <li>Chopped text and unnatural gap on medium screen size</li>
+            <li>User wants easier access to email</li>
+            <li>About is an unclear tab name</li>
+            <li>Copyright date was incorrect</li>
+          </ul>
+
+          <ul>
+            <li class="list-title">Solution</li>
+            <li>Make project images clickable when hovered</li>
+            <li>Fix floating image in medium size screen</li>
+            <li>Add email at bottom of page</li>
+            <li>Change About to About Me</li>
+            <li>Update copyright year to be current year</li>
+          </ul>
+        </div>
+
         <p>Code quality and cross-browser testing allowed me to ensure that my website was scaled correctly and was not throwing errors.
+          Color accessibility was checked all colors used on the website were updated to be AA compliant.
           The functionality of my website was tested on Google Chrome, Apple’s Safari, Microsoft Edge, and Mozilla Firefox.
           I updated some of my code to be more compatible with more browsers to allow my website to run smoothly and provide an improved user experience.</p>
+
+        <p><b>Cross-Browser Issues:</b></p>
+        <div class="grid">
+          <ul>
+            <li class="list-title">Problem</li>
+            <li>Unnatural text gap caused by floating image on medium screens for all browsers</li>
+            <li>Smooth scroll behavior in CSS is not compatible with Safari</li>
+            <li>Project text is same color as links on mobile devices</li>
+            <li>Lightbox image is cut off when user clicks some images</li>
+            <li>Copyright text and email on different lines on mobile</li>
+          </ul>
+
+          <ul>
+            <li class="list-title">Solution</li>
+            <li>Decreased max-width of floating images to 400px in medium screen media query</li>
+            <li>Use JS for more compatibility with Safari & other browsers</li>
+            <li>Override the link color and make text #212121</li>
+            <li>Update Lightbox image css to max-width: 50% and max-height: 75%</li>
+            <li>Decrease copyright and email text in mobile to 10px</li>
+          </ul>
+        </div>
+
       </div>
 
     </div>
