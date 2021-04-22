@@ -374,7 +374,7 @@ svg {
   align-items: center;
 }
 
-.fas .fa-angle-double-up {
+#btnIcon {
   display: flex;
   justify-content: center;
   align-items: center;
