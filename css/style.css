@@ -361,7 +361,6 @@ svg {
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
   z-index: 1;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -371,6 +370,11 @@ svg {
   background-color: #4f74c4;
   color: #fff;
   opacity: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas .fa-angle-double-up {
   display: flex;
   justify-content: center;
   align-items: center;
