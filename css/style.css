@@ -347,7 +347,7 @@ svg {
 
 #backTopBtn {
   position: fixed;
-  bottom: 25px;
+  bottom: 20px;
   right: 40px;
   font-size: 16px;
   width: 32px;
@@ -361,9 +361,6 @@ svg {
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
   z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #backTopBtn:hover,
