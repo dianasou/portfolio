@@ -345,31 +345,6 @@ svg {
   max-height: 75%;
 }
 
-#backTopBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 40px;
-  font-size: 16px;
-  width: 32px;
-  height: 32px;
-  background-color: #fff;
-  color: #4f74c4;
-  opacity: 0.75;
-  border: 2px solid #4f74c4;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-property: background-color, color;
-  z-index: 1;
-}
-
-#backTopBtn:hover,
-#backTopBtn:focus {
-  background-color: #4f74c4;
-  color: #fff;
-  opacity: 1;
-}
-
 .button {
   display: inline-block;
   background-color: transparent;
@@ -483,9 +458,28 @@ svg {
   }
 
   #backTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
     font-size: 25px;
     width: 50px;
     height: 50px;
+    background-color: #fff;
+    color: #4f74c4;
+    opacity: 0.75;
+    border: 2px solid #4f74c4;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    z-index: 1;
+  }
+
+  #backTopBtn:hover,
+  #backTopBtn:focus {
+    background-color: #4f74c4;
+    color: #fff;
+    opacity: 1;
   }
 
   .button {
@@ -698,9 +692,28 @@ svg {
   }
 
   #backTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
     font-size: 25px;
     width: 50px;
     height: 50px;
+    background-color: #fff;
+    color: #4f74c4;
+    opacity: 0.75;
+    border: 2px solid #4f74c4;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    z-index: 1;
+  }
+
+  #backTopBtn:hover,
+  #backTopBtn:focus {
+    background-color: #4f74c4;
+    color: #fff;
+    opacity: 1;
   }
 
   .button {
