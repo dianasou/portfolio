@@ -371,9 +371,6 @@ svg {
   background-color: #4f74c4;
   color: #fff;
   opacity: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .button {
