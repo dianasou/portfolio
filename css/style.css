@@ -339,7 +339,7 @@ svg {
 }
 
 #copyright {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 #lightbox img {
@@ -365,21 +365,20 @@ svg {
   text-decoration: none;
 }
 
-.button.contact,
+#contact p {
+  padding: 0 0 20px;
+}
+
+#social {
+  padding: 0 0 20px;
+}
+
 #resume {
   background-color: transparent;
   color: #212121;
   text-transform: uppercase;
   border: 2px solid #212121;
   margin: 14px;
-}
-
-.button.contact:hover,
-#resume {
-  background-color: #fff;
-  color: #212121;
-  border: 2px solid #212121;
-  transition: 0.5s ease-in-out;
 }
 
 #resume {
