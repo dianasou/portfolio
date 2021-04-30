@@ -139,6 +139,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   color: #212121;
   background-color: transparent;
+  white-space: nowrap;
 }
 
 nav > ul > li > a:focus {
@@ -206,6 +207,7 @@ a:hover {
 
 .navtoggle.responsive li {
   display: block;
+  padding: 10px;
 }
 
 .navtoggle.responsive nav {
