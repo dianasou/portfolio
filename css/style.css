@@ -586,6 +586,14 @@ svg {
     transition: opacity 0.1s;
   }
 
+  #contact p {
+    padding: 0 0 20px;
+  }
+
+  #social {
+    padding: 0 0 20px;
+  }
+
   #copyright {
     font-size: 14px;
   }
@@ -794,6 +802,14 @@ svg {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.1s;
+  }
+
+  #contact p {
+    padding: 0 0 20px;
+  }
+
+  #social {
+    padding: 0 0 20px;
   }
 
   #copyright {

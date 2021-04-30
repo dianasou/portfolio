@@ -45,19 +45,3 @@ lightbox.addEventListener('click', e => {
   if (e.target !== e.currentTarget) return
   lightbox.classList.remove('active')
 })
-
-// button to go back to top: https://youtu.be/gphMli74Chk
-const backToTopButton = document.querySelector('#backTopBtn')
-
-window.addEventListener('scroll', scrollFunction)
-
-function scrollFunction () {
-  // return distance from top
-  if (window.pageYOffset > 300) {
-    // show button
-    backToTopButton.style.display = 'block'
-  } else {
-    // hide button
-    backToTopButton.style.display = 'none'
-  }
-}
