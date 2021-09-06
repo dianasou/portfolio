@@ -338,6 +338,15 @@ svg {
   background-color: transparent;
 }
 
+.text-overlay {
+  font-weight: normal;
+}
+
+.project-type {
+  font-weight: 700;
+  font-size: 1.75em;
+}
+
 #copyright {
   font-size: 12px;
 }
@@ -548,6 +557,15 @@ svg {
     height: 100%;
   }
 
+  .project-type {
+    color: #fffaf0;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.35em;
+    text-align: center;
+    margin: 0;
+  }
+
   .img-overlay {
     position: absolute;
     top: 0;
@@ -568,7 +586,7 @@ svg {
   }
 
   .text-overlay {
-    margin-top: 0.25em;
+    margin: 4px 5px 5px;
     justify-content: center;
     text-align: center;
     padding: 5px;
@@ -764,6 +782,15 @@ svg {
     display: block;
     width: 100%;
     height: 100%;
+  }
+
+  .project-type {
+    color: #fffaf0;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.75em;
+    text-align: center;
+    margin: 0;
   }
 
   .img-overlay {
