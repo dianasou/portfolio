@@ -179,6 +179,15 @@ a:hover {
   text-decoration: none;
 }
 
+#projectTypeNav {
+  text-align: center;
+}
+
+.projectType {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
 .nav-link:visited,
 .nav-link:hover {
   color: #212121;
@@ -557,10 +566,9 @@ svg {
     height: 100%;
   }
 
-  .project-type {
+  .project-title {
     color: #fffaf0;
     font-weight: 700;
-    font-style: italic;
     font-size: 1.35em;
     text-align: center;
     margin: 0 5px;
@@ -784,10 +792,9 @@ svg {
     height: 100%;
   }
 
-  .project-type {
+  .project-title {
     color: #fffaf0;
     font-weight: 700;
-    font-style: italic;
     font-size: 1.75em;
     text-align: center;
     margin: 0 10px;
