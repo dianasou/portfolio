@@ -214,11 +214,6 @@ a:hover {
   margin-top: 8px;
 }
 
-.navtoggle.responsive li {
-  display: block;
-  padding: 10px;
-}
-
 .navtoggle.responsive nav {
   padding: 0;
 }
@@ -226,6 +221,7 @@ a:hover {
 /* override previous code and show complete menu */
 .navtoggle.responsive li {
   display: block;
+  padding: 10px;
 }
 
 #hero {
