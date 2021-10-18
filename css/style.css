@@ -381,6 +381,25 @@ svg {
   text-decoration: none;
 }
 
+.button2 {
+  display: inline-block;
+  background-color: transparent;
+  color: #212121;
+  border: 1px solid #212121;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+  text-align: center;
+  justify-content: center;
+}
+
+.button2:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
 #contact p {
   padding: 0 0 20px;
 }
