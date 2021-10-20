@@ -94,7 +94,7 @@ a:focus {
   font-weight: bold;
   text-decoration: underline;
   opacity: 80%;
-  transition: 0.5s ease-in;
+  transition: 0.2s ease-in;
 }
 
 a:active {
