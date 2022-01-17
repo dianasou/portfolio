@@ -382,7 +382,7 @@ svg {
 }
 
 .button2 {
-  display: inline-block;
+  display: block;
   background-color: transparent;
   color: #212121;
   border: 1px solid #212121;
@@ -578,10 +578,11 @@ svg {
     height: 100%;
   }
 
-  .project {
+  .project img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 100% !important;
+    border: 1px solid #212121;
   }
 
   .project-title {
