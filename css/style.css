@@ -401,6 +401,10 @@ svg {
   text-decoration: none;
 }
 
+.button2:hover {
+  color: #4f74c4;
+}
+
 #contact p {
   padding: 0 0 20px;
 }
