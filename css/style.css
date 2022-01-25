@@ -585,8 +585,7 @@ svg {
   .project img {
     display: block;
     width: 100%;
-    height: 100% !important;
-    border: 1px solid #212121;
+    height: 100%;
   }
 
   .project-title {
