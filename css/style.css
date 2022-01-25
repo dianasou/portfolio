@@ -354,6 +354,10 @@ svg {
   font-size: 1.75em;
 }
 
+#website-img {
+  border: 1px solid #212121;
+}
+
 #copyright {
   font-size: 12px;
 }
